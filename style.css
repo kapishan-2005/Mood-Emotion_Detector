@@ -1,0 +1,276 @@
+/* ------------------------------
+   SIDEBAR BASE STYLES
+--------------------------------*/
+
+.sidebar {
+  width: 270px;
+  height: 100vh;
+  background: rgba(0, 15, 30, 0.65);
+  backdrop-filter: blur(10px);
+  padding: 40px 30px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* ------------------------------
+   LOGO
+--------------------------------*/
+.logo h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.logo span {
+  font-size: 12px;
+  color: #c86bfa; /* purple accent */
+  text-transform: uppercase;
+}
+
+/* ------------------------------
+   NAVIGATION LIST
+--------------------------------*/
+.nav-list {
+  list-style: none;
+  margin: 40px 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin: 18px 0;
+  font-size: 16px;
+  color: #d4d4d4;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-list li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Active page */
+.nav-list li.active {
+  color: white;
+  font-weight: 600;
+}
+
+/* Hover effect */
+.nav-list li:hover {
+  color: #ffffff;
+  padding-left: 5px;
+}
+
+/* ------------------------------
+   CREATE ART TEXT (BOTTOM)
+--------------------------------*/
+.create-art {
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.create-art strong {
+  font-size: 18px;
+}
+
+/* ------------------------------
+   HERO SECTION WRAPPER
+--------------------------------*/
+.hero-section {
+  height: 1200px;
+  margin-left: 270px; /* space for sidebar */
+  padding: 60px 60px;
+  min-height: 100vh;
+  background: linear-gradient(120deg, #031b3f 0%, #0c0032 100%);
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+/* ------------------------------
+   HERO TITLE
+--------------------------------*/
+.stage {
+  perspective: 900px; /* increase for less foreshortening */
+}
+
+/* wrapper preserves 3D and animates */
+.card {
+  width: 320px;
+  height: 320px;
+  transform-style: preserve-3d;
+  animation: spin3d 6s linear infinite;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(2, 6, 23, 0.8);
+  overflow: hidden;
+  background: #111827;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  backface-visibility: hidden; /* helps with artifacts during rotation */
+  transform: translateZ(40px) scale(1.02); /* small pop-out effect */
+  will-change: transform;
+}
+
+@keyframes spin3d {
+  0% {
+    transform: rotateX(10deg) rotateY(0deg) rotateZ(0deg);
+  }
+  25% {
+    transform: rotateX(10deg) rotateY(90deg) rotateZ(0deg);
+  }
+  50% {
+    transform: rotateX(10deg) rotateY(180deg) rotateZ(0deg);
+  }
+  75% {
+    transform: rotateX(10deg) rotateY(270deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(10deg) rotateY(360deg) rotateZ(0deg);
+  }
+}
+
+/* small responsive tweak */
+@media (max-width: 400px) {
+  .card {
+    width: 260px;
+    height: 260px;
+  }
+}
+.hero-title {
+  margin-top: 40px;
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 1.1;
+  /* text-transform: lowercase; */
+}
+
+.hero-title .dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #ff007f;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.hero-title .purple {
+  color: #a855f7;
+}
+
+/* ------------------------------
+   DESCRIPTION TEXT
+--------------------------------*/
+.hero-desc {
+  width: 80%;
+  font-size: 17px;
+  color: #c9d0e3;
+  margin: 25px 0 35px 0;
+}
+
+/* ------------------------------
+   BUTTON STYLE
+--------------------------------*/
+.explore-btn {
+  background: #ffffff;
+  border: none;
+  padding: 12px 35px;
+  border-radius: 30px;
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.explore-btn.a{
+    text-decoration: none;
+}
+.explore-btn:hover {
+  background: #a855f7;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* ------------------------------
+   FEATURE CARDS
+--------------------------------*/
+/* Cards Section */
+.cards-section {
+  padding: 50px 15px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Glass-style card */
+.custom-card {
+  height: 290px;
+  background: rgba(255, 255, 255, 0.15); /* semi-transparent */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* light border */
+  border-radius: 15px;
+  backdrop-filter: blur(10px); /* glass effect */
+  -webkit-backdrop-filter: blur(10px);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Card image */
+.custom-card .card-img {
+  width: 180px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+/* Card title */
+.custom-card .card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/* Card text */
+.custom-card .card-text {
+  font-size: 0.95rem;
+  color: #f0f0f0;
+  margin-bottom: 15px;
+}
+
+/* Card button */
+.custom-card .card-btn {
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.custom-card .card-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.hero-img {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  margin-top: 30px;
+}

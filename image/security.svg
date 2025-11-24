@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Security_Reviews" viewBox="0 0 140 140">
+  <defs>
+    <style>.cls-1{opacity:.5;}.cls-2{fill:url(#Unbenannter_Verlauf_2);}.cls-2,.cls-3,.cls-4,.cls-5,.cls-6,.cls-7{stroke-width:0px;}.cls-8{stroke:#b0c9d5;stroke-width:1.977px;}.cls-8,.cls-4,.cls-9{fill:none;}.cls-3{fill:#bfcbdd;}.cls-5{fill:url(#Linien);opacity:.3;}.cls-6{fill:#fff;}.cls-9{filter:url(#drop-shadow-1);stroke:#fff;stroke-miterlimit:10;stroke-width:8.5px;}.cls-7{fill:#003f77;}</style>
+    <pattern id="Linien" x="0" y="0" width="84" height="84" patternTransform="translate(5427.066 -8040.808) rotate(-45) scale(1.24)" patternUnits="userSpaceOnUse" viewBox="0 0 84 84">
+      <rect class="cls-4" width="84" height="84"></rect>
+      <line class="cls-8" y1="82" x2="84" y2="82"></line>
+      <line class="cls-8" y1="78" x2="84" y2="78"></line>
+      <line class="cls-8" y1="74" x2="84" y2="74"></line>
+      <line class="cls-8" y1="70" x2="84" y2="70"></line>
+      <line class="cls-8" y1="66" x2="84" y2="66"></line>
+      <line class="cls-8" y1="62" x2="84" y2="62"></line>
+      <line class="cls-8" y1="58" x2="84" y2="58"></line>
+      <line class="cls-8" y1="54" x2="84" y2="54"></line>
+      <line class="cls-8" y1="50" x2="84" y2="50"></line>
+      <line class="cls-8" y1="46" x2="84" y2="46"></line>
+      <line class="cls-8" y1="42" x2="84" y2="42"></line>
+      <line class="cls-8" y1="38" x2="84" y2="38"></line>
+      <line class="cls-8" y1="34" x2="84" y2="34"></line>
+      <line class="cls-8" y1="30" x2="84" y2="30"></line>
+      <line class="cls-8" y1="26" x2="84" y2="26"></line>
+      <line class="cls-8" y1="22" x2="84" y2="22"></line>
+      <line class="cls-8" y1="17.999" x2="84" y2="17.999"></line>
+      <line class="cls-8" y1="13.999" x2="84" y2="13.999"></line>
+      <line class="cls-8" y1="10.001" x2="84" y2="10.001"></line>
+      <line class="cls-8" y1="6.001" x2="84" y2="6.001"></line>
+      <line class="cls-8" y1="2" x2="84" y2="2"></line>
+      <rect class="cls-4" width="84" height="84"></rect>
+    </pattern>
+    <radialGradient id="Unbenannter_Verlauf_2" cx="68.192" cy="66.859" fx="68.192" fy="66.859" r="50.773" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#003f77"></stop>
+      <stop offset="1" stop-color="#003f77" stop-opacity=".3"></stop>
+    </radialGradient>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="2.835" dy="2.835"></feOffset>
+      <feGaussianBlur result="blur" stdDeviation="4.989"></feGaussianBlur>
+      <feFlood flood-color="#12120d" flood-opacity=".3"></feFlood>
+      <feComposite in2="blur" operator="in"></feComposite>
+      <feComposite in="SourceGraphic"></feComposite>
+    </filter>
+  </defs>
+  <circle class="cls-7" cx="68.192" cy="66.859" r="50.773"></circle>
+  <circle class="cls-5" cx="68.192" cy="66.859" r="50.773"></circle>
+  <circle class="cls-2" cx="68.192" cy="66.859" r="50.773"></circle>
+  <circle class="cls-9" cx="67.222" cy="66.859" r="51.743"></circle>
+  <path class="cls-6" d="M92.968,50.364c-10.608-.758-10.776-10.271-10.776-10.271-5.977-1.179-13.765-1.431-13.765-1.431,0,0-7.787.253-13.765,1.431,0,0-.168,9.513-10.776,10.271,0,0-2.189,27.698,8.023,38.112,0,0,6.626,7.265,16.518,10.465,9.892-3.199,16.518-10.465,16.518-10.465,10.212-10.414,8.023-38.112,8.023-38.112Z"></path>
+  <path class="cls-7" d="M68.427,93.485c-7.907-2.661-13.304-8.493-13.358-8.552-7.418-7.565-6.859-26.715-6.639-30.94,7.302-.938,8.844-6.664,9.166-8.83,4.851-.863,10.801-1.066,10.863-1.068,0,.002,5.948.205,10.799,1.068.322,2.166,1.864,7.893,9.166,8.83.222,4.227.78,23.373-6.615,30.914-.078.085-5.476,5.917-13.382,8.578Z"></path>
+  <path class="cls-3" d="M68.427,45.097c.624.023,5.583.225,9.932.928.64,3.274,3.053,7.703,9.104,8.829.219,5.345.356,22.497-6.368,29.354l-.025.026-.024.027c-.052.057-5.11,5.537-12.618,8.168-7.471-2.62-12.569-8.113-12.619-8.168l-.024-.027-.025-.026c-6.724-6.857-6.587-24.009-6.368-29.354,6.052-1.126,8.464-5.555,9.104-8.829,4.349-.703,9.309-.905,9.932-.928M68.427,43.096s-6.646.216-11.747,1.221c0,0-.144,8.119-9.196,8.765,0,0-1.868,23.638,6.847,32.525,0,0,5.654,6.2,14.096,8.931,8.442-2.73,14.096-8.931,14.096-8.931,8.715-8.888,6.847-32.525,6.847-32.525-9.053-.647-9.196-8.765-9.196-8.765-5.101-1.006-11.747-1.221-11.747-1.221h0Z"></path>
+  <path class="cls-6" d="M75.588,101.006c-4.895-10.459-12.82-19.333-12.9-19.421l1.982-3.275c4.981,1.271,8.795,3.317,10.99,4.701,8.7-18.052,28.908-27.426,29.799-27.831l2.114,3.352c-21.785,18.27-28.177,41.896-28.239,42.132l-3.746.342Z"></path>
+  <path class="cls-7" d="M106.288,56.999c-22.577,18.934-28.888,43.159-28.888,43.159-5.086-10.87-13.225-19.911-13.225-19.911,7.584,1.937,12.329,5.782,12.329,5.782,7.814-19.02,29.785-29.029,29.785-29.029M104.63,53.359c-.886.404-20.319,9.419-29.783,26.856-2.377-1.313-5.679-2.822-9.682-3.844l-3.963,6.552c.076.085,7.815,8.758,12.575,18.93l7.494-.687c.059-.225,6.335-23.279,27.588-41.102l-4.229-6.705h0ZM106.288,60.999h.005-.005Z"></path>
+  <g class="cls-1">
+    <path class="cls-3" d="M85.798,52.311c-5.52-2.179-5.624-7.993-5.624-7.993-5.101-1.006-11.747-1.221-11.747-1.221,0,0-6.646.216-11.747,1.221,0,0-.144,8.119-9.196,8.765,0,0-.669,8.494.671,17.214,2.313.393,4.724.607,7.208.607,15.463,0,28.257-8.075,30.436-18.593Z"></path>
+  </g>
+</svg>

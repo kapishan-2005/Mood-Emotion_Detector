@@ -1,0 +1,98 @@
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif; 
+  overflow: hidden;
+}
+.home-icon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 30px;
+  color: white;
+  z-index: 1000;
+  text-decoration: none;
+}
+.home-icon:hover {
+  color: #0d6efd;
+}
+.login-container {
+  height: 100vh; 
+  padding: 0;
+}
+
+.left-panel {
+  background-color: #0b112c; 
+  position: relative;
+  overflow: hidden;
+}
+
+.left-panel::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(145deg, #091a27 0%, #0d3569 50%, #000158 100%);
+  z-index: 1; 
+  opacity: 0.9;
+}
+
+.left-panel > div {
+  z-index: 2;
+  position: relative;
+}
+
+.right-panel {
+  background: rgba(0, 15, 30, 0.65); 
+}
+
+.login-card {
+  background: linear-gradient(145deg, #0c80d8 0%, #12468a 50%, #0f12d3 100%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  max-width: 450px;
+  width: 90%;
+}
+
+.custom-btn-primary {
+  background-color: #007bff; 
+  border-color: #007bff;
+  font-weight: bold;
+}
+
+.custom-btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.form-control {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); 
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  padding: 1rem 1.25rem;
+  border-radius: 0.75rem;
+}
+
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+.form-control:focus {
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+.sign-up-link {
+  color: white; 
+  font-weight: 600;
+}

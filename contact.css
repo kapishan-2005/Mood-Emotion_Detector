@@ -1,0 +1,97 @@
+/* ------------------------------
+   CONTACT PAGE STYLING
+   Matches Home Page Theme
+--------------------------------*/
+
+/* Background Gradient (same as homepage) */
+body {
+    background: linear-gradient(135deg, #071A3C, #030B25);
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    overflow-x: hidden;
+}
+.home-icon {
+            position: absolute;
+            top: 20px;
+            right: 25px;
+            font-size: 32px;
+            color: white;
+            transition: 0.3s;
+        }
+        .home-icon:hover {
+            color: #0056b3;
+            transform: scale(1.1);
+        }
+/* Section Title */
+.contact-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 40px;
+    background: linear-gradient(90deg, #ffffff, #b36bff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.contact-subtitle {
+    text-align: center;
+    color: #d4d4d4;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Contact Cards */
+.contact-card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    transition: all 0.3s ease;
+    box-shadow: 0 0 25px rgba(126, 70, 255, 0.1);
+}
+
+/* Hover Glow Effect */
+.contact-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 35px rgba(149, 94, 255, 0.4);
+}
+
+/* Profile Images */
+.contact-img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #8b4bff;
+    box-shadow: 0 0 12px rgba(141, 63, 255, 0.6);
+}
+
+/* Name */
+.contact-name {
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: 600;
+    background: linear-gradient(90deg, #ffffff, #bf7fff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* Position / Role */
+.contact-position {
+    color: #c7c7c7;
+    font-size: 15px;
+}
+
+/* Contact Info */
+.contact-info p {
+    margin: 8px 0;
+    color: #dcdcdc;
+    font-size: 15px;
+}
+
+.contact-info i {
+    color: #b16bff;
+    margin-right: 8px;
+}
