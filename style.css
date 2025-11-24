@@ -274,3 +274,135 @@
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
   margin-top: 30px;
 }
+/* 📱 MOBILE ≤ 575px */
+@media (max-width: 575px) {
+
+  /* SIDEBAR COLLAPSE */
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .nav-list {
+    margin: 20px 0;
+  }
+
+  .nav-list li {
+    font-size: 15px;
+  }
+
+  .create-art {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  /* HERO SECTION */
+  .hero-section {
+    margin-left: 0 !important;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 45px;
+    margin-top: 20px;
+  }
+
+  .hero-desc {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  /* 3D CARD */
+  .card {
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+  }
+
+  /* FEATURE CARDS STACK */
+  .cards-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .custom-card {
+    width: 100%;
+    max-width: 330px;
+  }
+}
+
+
+
+/* 📱 TABLET (576px – 768px) */
+@media (max-width: 768px) {
+
+  .sidebar {
+    width: 200px;
+    padding: 30px 20px;
+  }
+
+  .hero-section {
+    margin-left: 200px;
+    padding: 40px 30px;
+  }
+
+  .hero-title {
+    font-size: 55px;
+  }
+
+  .hero-desc {
+    width: 90%;
+  }
+
+  .cards-section {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .custom-card {
+    width: 45%;
+  }
+}
+
+
+
+/* 💻 SMALL LAPTOP (769px – 992px) */
+@media (max-width: 992px) {
+
+  .sidebar {
+    width: 230px;
+  }
+
+  .hero-section {
+    margin-left: 230px;
+  }
+
+  .hero-title {
+    font-size: 70px;
+  }
+
+  .card {
+    width: 280px;
+    height: 280px;
+  }
+
+  .custom-card {
+    width: 30%;
+  }
+}
+
+
+
+/* 🖥️ LARGE SCREEN FIX (1200px+) */
+@media (min-width: 1200px) {
+  .hero-title {
+    font-size: 85px;
+  }
+  .cards-section {
+    gap: 40px;
+  }
+}

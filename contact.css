@@ -95,3 +95,73 @@ body {
     color: #b16bff;
     margin-right: 8px;
 }
+/* 📱 Mobile (≤ 600px) */
+@media (max-width: 600px) {
+
+    body {
+        padding-bottom: 20px;
+    }
+
+    .contact-title {
+        font-size: 32px;
+        margin-top: 25px;
+    }
+
+    .contact-subtitle {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .contact-card {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .contact-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .contact-name {
+        font-size: 20px;
+    }
+
+    .contact-info p {
+        font-size: 13px;
+    }
+
+    .home-icon {
+        top: 12px;
+        right: 15px;
+        font-size: 26px;
+    }
+}
+
+/* 📱 Tablet (600px – 900px) */
+@media (max-width: 900px) {
+
+    .contact-card {
+        margin-bottom: 25px;
+    }
+
+    .contact-img {
+        width: 115px;
+        height: 115px;
+    }
+
+    .contact-name {
+        font-size: 22px;
+    }
+}
+
+/* 🖥 Small Laptop (900px – 1200px) */
+@media (max-width: 1200px) {
+
+    .contact-card {
+        padding: 28px;
+    }
+
+    .contact-title {
+        font-size: 42px;
+    }
+}
