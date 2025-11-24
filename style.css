@@ -5,7 +5,9 @@
 .sidebar {
   width: 270px;
   height: 100vh;
-  background: rgba(0, 15, 30, 0.65);
+  /* background: rgba(0, 15, 30, 0.65); */
+   background:#1a094d;
+
   backdrop-filter: blur(10px);
   padding: 40px 30px;
   position: fixed;
@@ -16,6 +18,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
 
 /* ------------------------------
    LOGO
@@ -111,8 +114,8 @@
   display: inline-block;
   width: 12px;
   height: 12px;
-  background: #ff007f;
-  border-radius: 50%;
+  background:#ff007f;
+  
   margin-right: 10px;
 }
 
