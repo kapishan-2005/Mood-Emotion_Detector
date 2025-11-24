@@ -6,7 +6,7 @@
 /* Background Gradient (same as homepage) */
 body {
     background: linear-gradient(135deg, #071A3C, #030B25);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Inter', 'Nunito', 'Roboto','Plus Jakarta Sans';
     color: #fff;
     overflow-x: hidden;
 }

@@ -50,7 +50,6 @@ body {
 
 /* Card */
 .custom-card {
-  width: 100%;
   max-width: 450px;
   background: linear-gradient(145deg, #0c80d8 0%, #12468a 50%, #0f12d3 100%);
   backdrop-filter: blur(10px);

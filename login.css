@@ -1,8 +1,8 @@
-tml,
+html,
 body {
   height: 100%;
   margin: 0;
-  font-family: Arial, sans-serif; 
+  font-family:  'Poppins','Inter','Nunito'; 
   overflow: hidden;
 }
 
@@ -24,8 +24,6 @@ body {
 .login-container {
   height: 100vh; 
   padding: 0;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .left-panel {
@@ -50,9 +48,6 @@ body {
 
 .right-panel {
   background: rgba(0, 15, 30, 0.65); 
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /* LOGIN CARD */
@@ -63,8 +58,6 @@ body {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   border-radius: 16px;
   max-width: 450px;
-  width: 90%;
-  padding: 20px;
 }
 
 .custom-btn-primary {
