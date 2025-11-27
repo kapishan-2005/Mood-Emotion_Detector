@@ -24,12 +24,16 @@ body {
 .login-container {
   height: 100vh; 
   padding: 0;
+  display:flex;
 }
 
 .left-panel {
   background-color: #0b112c; 
   position: relative;
   overflow: hidden;
+  flex:1;
+  display: flex;
+  height: auto;
 }
 
 .left-panel::after {
@@ -48,6 +52,8 @@ body {
 
 .right-panel {
   background: rgba(0, 15, 30, 0.65); 
+  flex:1;
+  display: flex;
 }
 
 /* LOGIN CARD */
@@ -96,8 +102,6 @@ body {
 /* --------------------------
      RESPONSIVE DESIGN
    -------------------------- */
-
-/* 📱 MOBILE (≤ 575px) */
 @media (max-width: 575px) {
 
   body {
@@ -109,18 +113,34 @@ body {
     height: auto;
   }
 
+  /* FIXED LEFT PANEL */
   .left-panel {
-    height: 180px;
+    height: auto;                 /* FIXED: no cutting */
+    padding: 20px;                /* Give breathing space */
     text-align: center;
+    justify-content: center;      /* Center items vertically */
+    align-items: center;
+    flex: unset;
   }
 
   .left-panel img {
-    width: 60%;
+    width: 70%;                   /* Bigger but safe */
+    max-width: 260px;             /* Prevent too large */
   }
 
+  .left-panel .title,
+  .left-panel .subtitle,
+  .left-panel p {
+    padding: 0 10px;              /* Avoid cutting long text */
+    word-break: break-word;       /* Prevent overflow */
+  }
+
+  /* RIGHT PANEL */
   .right-panel {
     padding: 20px;
     height: auto;
+    flex: unset;
+    justify-content: center;
   }
 
   .login-card {
@@ -135,37 +155,3 @@ body {
   }
 }
 
-/* 📱 TABLET (576px–768px) */
-@media (max-width: 768px) {
-
-  .left-panel {
-    height: 300px;
-  }
-
-  .left-panel img {
-    width: 70%;
-  }
-
-  .login-card {
-    max-width: 400px;
-  }
-}
-
-/* 💻 SMALL LAPTOP (769px–992px) */
-@media (max-width: 992px) {
-
-  .left-panel img {
-    width: 80%;
-  }
-
-  .login-card {
-    max-width: 420px;
-  }
-}
-
-/* 🖥️ LARGE SCREEN FIX (≥ 1200px) */
-@media (min-width: 1200px) {
-  .login-card {
-    max-width: 500px;
-  }
-}
