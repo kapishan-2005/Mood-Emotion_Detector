@@ -26,6 +26,7 @@ body {
     color: #c9d1d9 !important; /* Lighter text for links */
     transition: color 0.3s ease;
     margin: 0 10px;
+    font-size: 30px;
 }
 
 .nav-item-link:hover {
