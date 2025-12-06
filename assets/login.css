@@ -22,7 +22,6 @@ body {
 
 /* MAIN CONTAINER */
 .login-container {
-  height: 100vh; 
   padding: 0;
   display:flex;
 }
